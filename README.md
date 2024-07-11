@@ -1,29 +1,29 @@
-# contact-management
+# Управление контактами (Vue 3 + TypeScript)
 
-## Project setup
-```
-npm install
-```
+### Обзор
+* Описание работы
+* Используемые технологии
+* Установка и запуск проекта
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+**Описание**
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Проект список контактов. Дает пользователю возможность добавлять удалять 
+и редактировать контакты. Все контакты сохраняются в LocaleStorage. При старте 
+приложения подгружаются тестовые контакты через api (https://jsonplaceholder.typicode.com/). 
+Если все контакты удалены обновите страницу чтобы вернуть тестовые данные.
 
-### Run your unit tests
-```
-npm run test:unit
-```
+**Используемые технологии**
 
-### Lints and fixes files
-```
-npm run lint
-```
+* Vue 3 (Composition API)
+* Pinia
+* TypeScript
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Установка и запуск проекта
+
+`npm install` — устанавливает необходимые пакеты
+
+`npm run serve` — запуск проекта
+
+`npm run build` — сборка проекта
+
+`npm run test:unit` — запуск тестов
