@@ -1,5 +1,9 @@
 # Управление контактами (Vue 3 + TypeScript)
 
+<a href="https://llilliillill.github.io/contact-management/">
+  посмотреть как это работает мозно здесь
+</a>
+
 ### Обзор
 * Описание работы
 * Используемые технологии
